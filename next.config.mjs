@@ -3,4 +3,4 @@ const nextConfig = {
   /* your config */
 };
 
-module.exports = nextConfig; // for CommonJS
+export default nextConfig;
