@@ -52,6 +52,7 @@ export default function Contact() {
                 <Button
                   variant="outline"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
+                  onClick={() => window.open("https://www.linkedin.com/in/vignesh-sundaramahalingam-12954055/", "_blank")}
                 >
                   <Linkedin className="w-4 h-4 mr-2" />
                   Connect on LinkedIn
@@ -66,7 +67,7 @@ export default function Contact() {
                 <Github className="w-8 h-8 mx-auto mb-3 text-primary" />
                 <h3 className="font-serif font-semibold mb-2">GitHub</h3>
                 <p className="text-sm text-muted-foreground mb-3">Check out my code</p>
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" onClick={() => window.open("https://github.com/vignesh-110592", "_blank")}>
                   View Profile
                 </Button>
               </CardContent>
