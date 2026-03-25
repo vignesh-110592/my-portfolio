@@ -84,7 +84,7 @@ export default function Contact() {
               <CardContent className="pt-6">
                 <Phone className="w-8 h-8 mx-auto mb-3 text-primary" />
                 <h3 className="font-serif font-semibold mb-2">Phone</h3>
-                <p className="text-sm text-muted-foreground">+49 179 257 336</p>
+                <p className="text-sm text-muted-foreground">+49 179 257 3336</p>
               </CardContent>
             </Card>
           </div>
