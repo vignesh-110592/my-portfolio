@@ -108,9 +108,10 @@ export default function Contact() {
                   variant="outline"
                   size="lg"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
+                  onClick={() => window.open("https://calendar.app.google/WUjr5Fb7BAy9kYDQ7", "_blank")}
                 >
                   <Calendar className="w-4 h-4 mr-2" />
-                  Schedule a Call
+                  Schedule a Google Meeting
                 </Button>
               </div>
             </CardContent>
