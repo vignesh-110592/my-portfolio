@@ -192,6 +192,198 @@ export default function Education() {
                   <CardHeader>
                     <div className="flex items-start justify-between">
                       <div>
+                        <CardTitle className="font-serif text-xl">Microsoft Certified: Azure DevOps Expert</CardTitle>
+                        <CardDescription className="text-primary font-medium">Microsoft</CardDescription>
+                      </div>
+                      <Award className="w-6 h-6 text-primary flex-shrink-0" />
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-3">
+                      <div className="flex items-center text-muted-foreground">
+                        <Calendar className="w-4 h-4 mr-2" />
+                        Obtained: March 2026
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        DevOps Strategy & Planning, Source Control, CI/CD Pipelines, Infrastructure as Code, Containers & Kubernetes, Release Management, Testing strategy,
+                        Security & compliance, Artifact management, Monitoring & Feedback, and GitHub Integration and Automation
+                      </p>
+                      <div className="flex flex-wrap gap-1">
+                        <Badge variant="outline" className="text-xs">
+                          Agile
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Scrum
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Git+Azure Repos
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Azure Pipelines
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Bicep
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          ARM
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          ACR
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Azure Artifacts
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          GitHub Actions
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Azure Monitor & Application Insights
+                        </Badge>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <CardTitle className="font-serif text-xl">Agile Scrum Foundation</CardTitle>
+                        <CardDescription className="text-primary font-medium">EXIN</CardDescription>
+                      </div>
+                      <Award className="w-6 h-6 text-primary flex-shrink-0" />
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-3">
+                      <div className="flex items-center text-muted-foreground">
+                        <Calendar className="w-4 h-4 mr-2" />
+                        Obtained: March 2026
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        Agile Mindset & Principles, Scrum Framework basics, Scrum Roles, Events, Artifacts, Agile Estimation & Planning and Quality & Testing in Agile
+                      </p>
+                      <div className="flex flex-wrap gap-1">
+                        <Badge variant="outline" className="text-xs">
+                          Sprint Planning
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Sprint Review
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Sprint Retrospective
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Relative estimation
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          User Story Mapping
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Definition of Done
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Velocity
+                        </Badge>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <CardTitle className="font-serif text-xl">Microsoft Certified: Azure Admin Associate</CardTitle>
+                        <CardDescription className="text-primary font-medium">Microsoft</CardDescription>
+                      </div>
+                      <Award className="w-6 h-6 text-primary flex-shrink-0" />
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-3">
+                      <div className="flex items-center text-muted-foreground">
+                        <Calendar className="w-4 h-4 mr-2" />
+                        Obtained: January 2026
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        Identity and access management, Azure compute, Virtual networking, Storage, Azure governance and compliance, Monitoring and troubleshooting, and Azure administration best practices
+                      </p>
+                      <div className="flex flex-wrap gap-1">
+                        <Badge variant="outline" className="text-xs">
+                          Identity
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          NSG
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Policy
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Disaster recovery
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Azure CLI
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Powershell
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          VNet, VM
+                        </Badge>
+                       
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <CardTitle className="font-serif text-xl">Microsoft Certified: Azure Fundamentals</CardTitle>
+                        <CardDescription className="text-primary font-medium">Microsoft</CardDescription>
+                      </div>
+                      <Award className="w-6 h-6 text-primary flex-shrink-0" />
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-3">
+                      <div className="flex items-center text-muted-foreground">
+                        <Calendar className="w-4 h-4 mr-2" />
+                        Obtained: December 2025
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        Cloud concepts, Architecture and services, Management and governance
+                      </p>
+                      <div className="flex flex-wrap gap-1">
+                        <Badge variant="outline" className="text-xs">
+                          IaaS
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          PaaS
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          SaaS
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Cloud Computing
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Scalability
+                        </Badge>
+                        <Badge variant="outline" className="text-xs">
+                          Availability
+                        </Badge>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardHeader>
+                    <div className="flex items-start justify-between">
+                      <div>
                         <CardTitle className="font-serif text-xl">Introduction to Kubernetes (LFS158)</CardTitle>
                         <CardDescription className="text-primary font-medium">LINUX FOUNDATION</CardDescription>
                       </div>
@@ -365,9 +557,9 @@ export default function Education() {
                   <div className="space-y-2">
                     <h4 className="font-semibold text-card-foreground">Recent Learning Focus:</h4>
                     <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-                      <li>Ansible automation using AWS EC2 instances</li>
+                      <li>Ansible configuration automation using AWS EC2 instances</li>
                       <li>Hosting a static website using Amazon S3</li>
-                      <li>CI/CD best practice using Jenkins, GitHub Actions workflows</li>
+                      <li>CI/CD best practice using Jenkins, GitHub Actions, Azure Pipeline workflows</li>
                       <li>Infrastructure provisioning in Terraform</li>
                     </ul>
                   </div>
