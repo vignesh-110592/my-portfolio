@@ -46,7 +46,7 @@ export default function Portfolio() {
               variant="outline"
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
-              onClick={handleDownloadResume}
+              onClick={() => window.open("/Lebenslauf.pdf", "_blank")}
             >
               <Download className="w-4 h-4 mr-2" />
               Download Resume
