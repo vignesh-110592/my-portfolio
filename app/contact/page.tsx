@@ -33,7 +33,7 @@ export default function Contact() {
                 <p className="text-muted-foreground mb-4">
                   Drop me a line and I'll get back to you as soon as possible.
                 </p>
-                <Button className="bg-primary hover:bg-primary/90">
+                <Button className="bg-primary hover:bg-primary/90" onClick={() => window.location.href = "mailto:vignesh.sundaramahalingam@gmail.com"}>
                   <Mail className="w-4 h-4 mr-2" />
                   vignesh.sundaramahalingam@gmail.com
                 </Button>
@@ -100,7 +100,7 @@ export default function Contact() {
                 you. Let's discuss how we can bring your ideas to life.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-primary hover:bg-primary/90">
+                <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={() => window.location.href = "mailto:vignesh.sundaramahalingam@gmail.com"}>
                   <Mail className="w-4 h-4 mr-2" />
                   Send Email
                 </Button>
