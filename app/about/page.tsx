@@ -29,11 +29,11 @@ export default function About() {
                 speaking at local meetups.
               </p>
               <div className="flex space-x-4">
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" onClick={() => window.open("https://github.com/vignesh-110592", "_blank")}>
                   <Github className="w-4 h-4 mr-2" />
                   GitHub
                 </Button>
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" onClick={() => window.open("https://www.linkedin.com/in/vignesh-sundaramahalingam-12954055/", "_blank")}>
                   <Linkedin className="w-4 h-4 mr-2" />
                   LinkedIn
                 </Button>
